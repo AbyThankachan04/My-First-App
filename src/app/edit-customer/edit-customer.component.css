@@ -1,0 +1,59 @@
+.editprofile {
+    padding-top: 80px;
+  }
+  .heading{
+    text-align: center;
+    padding-bottom: 80px;
+    font-size: large;
+    color: #78909C;
+    font-weight: bolder;
+  
+  }
+  .form-group label{
+    font: Normal 12px/14px Arial;
+    color: #78909C;
+    text-align: left;
+    margin-bottom: 9px;
+  }
+  form input[type='text'] {
+    border:0;
+    border-bottom:1px solid #78909C;
+    box-shadow: none;
+    border-radius: 0;
+  } 
+  form input[type='text']:focus {
+    border-bottom:1px solid #118ee1;
+    outline: 0;
+  }
+  
+  .form-group{
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      left: 50%;
+      translate: -50%;
+       max-width: 50%;
+       margin-bottom: 15px;
+  }
+  .l-large-btn{
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    background: #118ee1;
+    color: white;
+    font-weight: bold
+  }
+  .l-large-btn-cancel{
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    background: #b6b8b9;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  .buttonns{
+    justify-content: center;
+    display: flex;
+    padding: 15px;
+  }

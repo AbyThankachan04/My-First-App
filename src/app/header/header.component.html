@@ -1,0 +1,14 @@
+<div class="header">
+
+    <span >Angular </span>
+    <div class="nav_links" >
+        <a  [routerLink]="['/customer-details']"  [ngClass]="{'active': selectedItem == 'details'}">
+             Customers
+          </a>
+    <a [routerLink]="['/add-customer']" [ngClass]="{'active': selectedItem === 'addcustomer'}" >
+        Add Customer
+      </a>
+
+      <div *ngIf = "disable" ><input  class="form-control searchbox" type="text" [(ngModel)]="searchText" (keyup)="onKey($event)" placeholder="Search"></div>
+    </div>
+</div>

@@ -1,0 +1,48 @@
+<app-header></app-header>
+<div class="container editprofile">
+   <div class="heading"> <span>EDIT PROFILE</span></div>
+  <form #userForm="ngForm" >
+    <div class="form-group">   
+      <label for="userName">First Name</label>
+      <input id="userName" type="text" class="form-control"  name="firstName" [(ngModel)]="firstName"> 
+    </div>
+    <div class="form-group">
+        <label for="userName">Last Name</label>
+        <input id="userName" type="text" class="form-control"  name="lastName" [(ngModel)]="lastName"> 
+      </div>
+    <div class="form-group">
+      <label for="Address">Address</label>
+      <input id="Address" type="text" class="form-control"  name="Address" [(ngModel)]="Address">  
+    </div>
+    <div class="form-group">
+        <label for="userName">Gender</label>
+
+       
+        <!-- <p>Please select your gender:</p> -->
+        <div class="modal_reason_body">
+            <div class="radio_reason">
+                <input class="modal_reason_radio" type="radio" id="reason1" name="reason" value="Male"
+                    (change)="onItemChange($event.target.value)">
+                <label for="reason1">Male</label><br>
+            </div>
+            <div class="radio_reason">
+                <input class="modal_reason_radio" type="radio" id="reason2" name="reason" value="Female"
+                    (change)="onItemChange($event.target.value)">
+                <label for="reason2">Female</label><br>
+            </div>
+
+        </div>
+ 
+      </div>
+    <div class="form-group">
+        <label for="userName">State</label>
+        <input id="userName" type="text" class="form-control"  name="state" [(ngModel)]="state"> 
+      </div>
+      <div class="buttonns" >
+    <button class="l-large-btn"  (click)="updateButtonClicked()">Update</button>
+    <button class="l-large-btn-cancel"  (click)="cancelButtonClicked()">Cancel</button>
+        </div>
+</form>
+</div>
+
+

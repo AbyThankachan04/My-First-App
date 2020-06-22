@@ -1,0 +1,19 @@
+<div *ngIf="!hidden">
+    <div class="backdrop" (click)="hide()"></div>
+    <div class="modal">
+
+        <div class="modal__body">
+            <!-- <img class="modal__status-img" [src]="image"> -->
+            <div class="modal__warning">Are you sure you want to add this ?</div>
+            <div class="modal__btn-group">
+                <button class="modal__btn yes" (click)="OnClickYes()">
+                    <img class="imgClass-yes" src="assets/images/popover/yes.svg">
+                </button>
+                <button class="modal__btn no" (click)="hide()">
+                    <img class="imgClass-no" src="assets/images/popover/no.svg">
+                </button>
+            </div>
+        </div>
+    </div>
+    
+</div>

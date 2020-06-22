@@ -1,0 +1,38 @@
+.container{
+padding-top: 40px;
+padding-bottom: 40px;
+border-radius: 20px !important;
+margin-top: 100px;
+width: 50%;
+box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+position: relative;
+left: 50%;
+translate: -50%;
+}
+.heading{
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: large;
+    color: #1976d2;
+    font-weight: bolder;
+    padding-top: 20px;
+  }
+.item{
+display: flex;
+margin-bottom: 20px;
+margin-left: 35px;
+position: relative;
+left: 50%;
+translate: -20%;
+}
+.label{
+font-weight: bolder;
+color: #78909C;
+font-size: larger;
+width: 155px;
+
+}
+.label_value{
+    margin-left: 20px;
+ 
+}

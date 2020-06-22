@@ -1,0 +1,61 @@
+.customer{
+    padding: 0;
+    list-style: none;
+    padding-bottom: 50px;
+
+}
+.customer_list{
+    background: #FFF;
+border-radius: 6px;
+box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+margin-bottom: 10px;
+max-width: 80%;
+position: relative;
+left: 50%;
+translate: -50%;
+padding: 20px;
+display: flex;
+justify-content: space-between;
+}
+.customer_list span{
+    color: #78909C;
+}
+.list-btn{
+background: white;
+border: none;
+}
+.list-btn-edit{
+    background: white;
+border: none;
+}
+.list-btn-edit svg{
+    width: 25px;
+    fill: #118ee1 ;
+}
+.list-left-buttons{
+    display: flex;
+    width: 30%;
+justify-content: space-evenly;
+}
+.customer_list:hover{
+    background: #78909C;
+    color: white;
+}
+.customer_list:hover span  {
+    color: white;
+}
+.customer_list:hover .list-btn-edit svg  {
+    width: 25px;
+    fill: white ;
+}
+.customer_list:hover .list-btn-edit{
+    background: #78909C;
+}
+.heading{
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: large;
+    color: #1976d2;
+    font-weight: bolder;
+    padding-top: 40px;
+  }

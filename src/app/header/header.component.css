@@ -1,0 +1,45 @@
+.header{
+    height: 75px;
+    display: flex;
+    /* background: #118ee1; */
+    background: #1976d2;
+    padding: 18px;
+    justify-content: space-between;
+}
+.header span{
+    color: white;
+    font-size: xxx-large;
+    font-weight: bolder;
+}
+
+.header a {
+     display: block;
+
+height: 25px;
+background: #1976d2;
+padding: 10px;
+text-align: center;
+border-radius: 5px;
+color: white;
+font-weight: bold;
+line-height: 25px;
+text-decoration: none;
+position: relative;
+top: 20px;
+}
+.nav_links{
+    display: flex;
+}
+.nav_links a.active {
+    background: #044b91;
+}
+.searchbox{
+    height: 30px;
+position: relative;
+top: 20px;
+border-radius: 25px;
+margin-right: 50px;
+padding: 5px;
+padding-left: 10px;
+border: none;
+}
